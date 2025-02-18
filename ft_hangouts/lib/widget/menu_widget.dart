@@ -1,4 +1,8 @@
+// import 'package:flutter/material.dart';
+// import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:ft_hangouts/screens/screens.dart';
+import 'package:ft_hangouts/utils/go_to.dart';
 
 class MenuWidget extends StatelessWidget {
   const MenuWidget({super.key});
@@ -9,26 +13,32 @@ class MenuWidget extends StatelessWidget {
       onSelected: (value) {
         switch (value) {
           case 'Contacts':
-            // Navegar a la lista de contactos
+            goTo(context, const ContactsScreen());//hmmm
             break;
           case 'New Contact':
-            // Navegar a la pantalla de agregar contacto
+            goTo(context, const NewContactScreen());
+            break;
+          case 'Random Contact':
+            // goTo(context, const RandomContactScreen());//hmm
             break;
           case 'Themes':
-            // Cambiar el tema de la app
+            goTo(context, const ThemesScreen());
             break;
           case 'Language':
-            // Cambiar idioma
+            goTo(context, const LanguageScreen());
             break;
           case 'About':
-            // Mostrar información sobre la app
+            goTo(context, const AboutScreen());
             break;
+
         }
       },
       itemBuilder: (context) => [
+        PopupMenuItem(value: 'Contacts', child: _menuItem(Icons.contacts, 'Contacts')),
         PopupMenuItem(value: 'New Contact', child: _menuItem(Icons.person_add, 'New Contact')),
-        PopupMenuItem(value: 'Themes', child: _menuItem(Icons.palette, 'Themes')),
+        PopupMenuItem(value: 'Random Contact', child: _menuItem(Icons.casino, 'Random Contact')),
         PopupMenuItem(value: 'Language', child: _menuItem(Icons.language, 'Language')),
+        PopupMenuItem(value: 'Themes', child: _menuItem(Icons.palette, 'Themes')),
         PopupMenuItem(value: 'About', child: _menuItem(Icons.info, 'About')),
       ],
     );
