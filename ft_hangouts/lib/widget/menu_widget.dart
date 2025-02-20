@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:ft_hangouts/screens/screens.dart';
 import 'package:ft_hangouts/utils/go_to.dart';
 
+import 'package:ft_hangouts/l10n/app_localizations.dart';
+
+
 class MenuWidget extends StatelessWidget {
   const MenuWidget({super.key});
 
@@ -30,7 +33,16 @@ class MenuWidget extends StatelessWidget {
           case 'About':
             goTo(context, const AboutScreen());
             break;
+          case 'Debug Hello World':
+            String? hw = AppLocalizations.of(context)!.helloWorld;
 
+            if (hw != null){
+              debugPrint(hw);
+            }
+            else {
+              debugPrint("NULL");
+            }
+            break;
         }
       },
       itemBuilder: (context) => [
@@ -40,6 +52,7 @@ class MenuWidget extends StatelessWidget {
         PopupMenuItem(value: 'Language', child: _menuItem(Icons.language, 'Language')),
         PopupMenuItem(value: 'Themes', child: _menuItem(Icons.palette, 'Themes')),
         PopupMenuItem(value: 'About', child: _menuItem(Icons.info, 'About')),
+        PopupMenuItem(value: 'Debug Hello World', child: _menuItem(Icons.bug_report, 'Debug Hello World')),
       ],
     );
   }

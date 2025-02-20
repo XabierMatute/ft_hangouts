@@ -97,6 +97,12 @@ abstract class AppLocalizations {
     Locale('eu')
   ];
 
+  /// The conventional newborn programmer greeting
+  ///
+  /// In en, this message translates to:
+  /// **'Helloooooooooooo World!'**
+  String get helloWorld;
+
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:

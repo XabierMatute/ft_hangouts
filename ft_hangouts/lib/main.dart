@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'widget/menu_widget.dart';  // Asegúrate de que la ruta sea correcta
 
+import 'package:ft_hangouts/l10n/app_localizations.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +32,16 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+
+    localizationsDelegates: [
+      AppLocalizations.delegate, // Add this line
+    ],
+    supportedLocales: [
+      Locale('en'), // English
+      Locale('es'), // Spanish
+      Locale('eu'), // Euskera
+    ],
+
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: _themeData,

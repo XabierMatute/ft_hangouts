@@ -1,7 +1,7 @@
 {
   "@@locale": "es",
 
-  "helloWorld": "¡Hola Mundo!"
+  "helloWorld": "¡Hola Mundo!",
 
   "appTitle": "ft_hangouts",
   "aboutTitle": "Acerca de",

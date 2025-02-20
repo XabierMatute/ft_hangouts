@@ -9,6 +9,9 @@ class AppLocalizationsEu extends AppLocalizations {
   AppLocalizationsEu([String locale = 'eu']) : super(locale);
 
   @override
+  String get helloWorld => 'Aupa mundua!';
+
+  @override
   String get appTitle => 'ft_hangouts';
 
   @override

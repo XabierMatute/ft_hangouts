@@ -9,6 +9,9 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get helloWorld => 'Helloooooooooooo World!';
+
+  @override
   String get appTitle => 'ft_hangouts';
 
   @override

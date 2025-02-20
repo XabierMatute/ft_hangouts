@@ -1,11 +1,9 @@
 {
   "@@locale": "en",
-
-  "helloWorld": "Hello World!",
+  "helloWorld": "Helloooooooooooo World!",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
-  }
-
+  },
   "appTitle": "ft_hangouts",
   "aboutTitle": "About",
   "aboutDescription": "About This App: ft_hangouts",
