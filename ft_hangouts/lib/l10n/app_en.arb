@@ -1,0 +1,30 @@
+{
+  "@@locale": "en",
+
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  }
+
+  "appTitle": "ft_hangouts",
+  "aboutTitle": "About",
+  "aboutDescription": "About This App: ft_hangouts",
+  "aboutText": "This project is designed to help you become familiar with mobile systems. You will be creating a contact management application that allows users to create, edit, and delete contacts, as well as send text messages to them. The app will also offer multiple languages and allow users to change the header color.",
+  "version": "Version",
+  "versionNumber": "0.1.0",
+  "projectDetails": "Project Details",
+  "mandatoryFeatures": "• Mandatory Features: Create, edit, delete contacts.\n• Persistent contact storage using SQLite.\n• Send and receive text messages.\n• Change header color through the app’s menu.\n• Multi-language support (default language and system language).\n• App icon: 42 logo.",
+  "bonusFeatures": "• Bonus Features: Add pictures to contacts, auto-create contacts from incoming messages, material design.",
+  "developer": "Developer",
+  "developerName": "@xmatute-",
+  "close": "Close",
+  "contacts": "Contacts",
+  "newContact": "New Contact",
+  "randomContact": "Random Contact",
+  "themes": "Themes Selection",
+  "language": "Language Selection",
+  "selectLanguage": "Select your preferred language",
+  "themeSelection": "Select a theme",
+  "addContact": "Add Contact",
+  "workInProgress": "WIP: Feature under development"
+}

@@ -1,0 +1,27 @@
+{
+  "@@locale": "es",
+
+  "helloWorld": "¡Hola Mundo!"
+
+  "appTitle": "ft_hangouts",
+  "aboutTitle": "Acerca de",
+  "aboutDescription": "Acerca de esta aplicación: ft_hangouts",
+  "aboutText": "Este proyecto está diseñado para ayudarte a familiarizarte con los sistemas móviles. Crearás una aplicación de gestión de contactos que permitirá a los usuarios crear, editar y eliminar contactos, así como enviarles mensajes de texto. La app también ofrecerá múltiples idiomas y permitirá cambiar el color del encabezado.",
+  "version": "Versión",
+  "versionNumber": "0.1.0",
+  "projectDetails": "Detalles del proyecto",
+  "mandatoryFeatures": "• Características obligatorias: Crear, editar, eliminar contactos.\n• Almacenamiento persistente de contactos con SQLite.\n• Enviar y recibir mensajes de texto.\n• Cambiar el color del encabezado desde el menú de la aplicación.\n• Soporte multi-idioma (idioma por defecto y del sistema).\n• Icono de la app: Logo de 42.",
+  "bonusFeatures": "• Características adicionales: Agregar imágenes a los contactos, crear contactos automáticamente desde mensajes entrantes, diseño material.",
+  "developer": "Desarrollador",
+  "developerName": "@xmatute-",
+  "close": "Cerrar",
+  "contacts": "Contactos",
+  "newContact": "Nuevo contacto",
+  "randomContact": "Contacto aleatorio",
+  "themes": "Selección de temas",
+  "language": "Selección de idioma",
+  "selectLanguage": "Selecciona tu idioma preferido",
+  "themeSelection": "Selecciona un tema",
+  "addContact": "Añadir contacto",
+  "workInProgress": "En desarrollo: Funcionalidad en progreso"
+}

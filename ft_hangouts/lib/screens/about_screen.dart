@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
@@ -12,7 +10,7 @@ class AboutScreen extends StatelessWidget {
         title: const Text('About'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -71,7 +69,7 @@ class AboutScreen extends StatelessWidget {
               'Version: 0.1.0',
               style: TextStyle(fontSize: 16),
             ),
-            const Spacer(),
+            const SizedBox(height: 32), // Espacio adicional antes del botón
             Center(
               child: ElevatedButton(
                 onPressed: () {

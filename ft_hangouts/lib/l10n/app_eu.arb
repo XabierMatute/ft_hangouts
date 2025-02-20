@@ -1,0 +1,27 @@
+{
+  "@@locale": "eu",
+
+  "helloWorld": "Aupa mundua!"
+
+  "appTitle": "ft_hangouts",
+  "aboutTitle": "Honi buruz",
+  "aboutDescription": "Aplikazio honi buruz: ft_hangouts",
+  "aboutText": "Proiektu hau mugikor sistemekin ohitzen laguntzeko diseinatuta dago. Erabiltzaileek kontaktuak sortu, editatu eta ezabatzeko aplikazio bat garatuko dute, baita haiei testu-mezuak bidaltzeko aukera ere. Aplikazioak hizkuntza anitzeko euskarria eskainiko du eta goiburuaren kolorea aldatzea ahalbidetuko du.",
+  "version": "Bertsioa",
+  "versionNumber": "0.1.0",
+  "projectDetails": "Proiektuaren xehetasunak",
+  "mandatoryFeatures": "• Derrigorrezko funtzioak: Kontaktua sortu, editatu, ezabatu.\n• Kontaktuen biltegiratze iraunkorra SQLite erabiliz.\n• Testu-mezuak bidali eta jaso.\n• Goiburuaren kolorea aplikazioaren menuaren bidez aldatu.\n• Hizkuntza anitzeko euskarria (lehenetsitako hizkuntza eta sistemaren hizkuntza).\n• Aplikazioaren ikonoa: 42 logotipoa.",
+  "bonusFeatures": "• Ezaugarri gehigarriak: Kontaktuei irudiak gehitu, sarrerako mezuetatik kontaktuak automatikoki sortu, material diseinua.",
+  "developer": "Garatzailea",
+  "developerName": "@xmatute-",
+  "close": "Itxi",
+  "contacts": "Kontaktuak",
+  "newContact": "Kontaktua berria",
+  "randomContact": "Ausazko kontaktua",
+  "themes": "Gai aukeraketa",
+  "language": "Hizkuntza aukeraketa",
+  "selectLanguage": "Hautatu zure hizkuntza preferitua",
+  "themeSelection": "Gai bat aukeratu",
+  "addContact": "Kontaktua gehitu",
+  "workInProgress": "Garapen fasean: Ezaugarri hau lantzen ari da"
+}

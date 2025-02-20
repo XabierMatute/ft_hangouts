@@ -18,7 +18,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   ThemeData _themeData = ThemeData(
-    colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
+    colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
   );
 
   void changeTheme(ThemeData newTheme) {

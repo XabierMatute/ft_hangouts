@@ -13,7 +13,7 @@ class LanguageScreen extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'WIP: Aquí iría la selección de idiomas',
+          'WIP: Aquí iría la selección de idiomas @metrobilbao iratxe desbloqueame',
           style: TextStyle(fontSize: 18),
         ),
       ),
