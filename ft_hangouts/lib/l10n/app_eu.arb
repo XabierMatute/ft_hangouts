@@ -16,12 +16,20 @@
   "developerName": "@xmatute-",
   "close": "Itxi",
   "contacts": "Kontaktuak",
-  "newContact": "Kontaktua berria",
+  "newContact": "Kontaktu berria",
   "randomContact": "Ausazko kontaktua",
   "themes": "Gai aukeraketa",
   "language": "Hizkuntza aukeraketa",
   "selectLanguage": "Hautatu zure hizkuntza preferitua",
+  "currentLanguage": "Uneko hizkuntza",
   "themeSelection": "Gai bat aukeratu",
   "addContact": "Kontaktua gehitu",
-  "workInProgress": "Garapen fasean: Ezaugarri hau lantzen ari da"
+  "workInProgress": "Garapen fasean: Ezaugarri hau lantzen ari da",
+  "confirmExit": "Ziur zaude irten nahi duzula?",
+  "exit": "Irten",
+  "cancel": "Utzi",
+  "delete": "Ezabatu",
+  "edit": "Editatu",
+  "save": "Gorde",
+  "unsavedChanges": "Aldaketak gorde gabe dituzu. Gorde nahi dituzu?"
 }

@@ -51,7 +51,7 @@ class AppLocalizationsEu extends AppLocalizations {
   String get contacts => 'Kontaktuak';
 
   @override
-  String get newContact => 'Kontaktua berria';
+  String get newContact => 'Kontaktu berria';
 
   @override
   String get randomContact => 'Ausazko kontaktua';
@@ -66,7 +66,7 @@ class AppLocalizationsEu extends AppLocalizations {
   String get selectLanguage => 'Hautatu zure hizkuntza preferitua';
 
   @override
-  String get currentLanguage => 'Current language';
+  String get currentLanguage => 'Uneko hizkuntza';
 
   @override
   String get themeSelection => 'Gai bat aukeratu';
@@ -78,23 +78,23 @@ class AppLocalizationsEu extends AppLocalizations {
   String get workInProgress => 'Garapen fasean: Ezaugarri hau lantzen ari da';
 
   @override
-  String get confirmExit => 'Are you sure you want to exit?';
+  String get confirmExit => 'Ziur zaude irten nahi duzula?';
 
   @override
-  String get exit => 'Exit';
+  String get exit => 'Irten';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Utzi';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Ezabatu';
 
   @override
-  String get edit => 'Edit';
+  String get edit => 'Editatu';
 
   @override
-  String get save => 'Save';
+  String get save => 'Gorde';
 
   @override
-  String get unsavedChanges => 'You have unsaved changes. Do you want to save them?';
+  String get unsavedChanges => 'Aldaketak gorde gabe dituzu. Gorde nahi dituzu?';
 }

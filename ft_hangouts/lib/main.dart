@@ -26,8 +26,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeData _themeData = ThemeData(
-  );
+  ThemeData _themeData = ThemeData.light();
 
   Locale _locale = WidgetsBinding.instance.platformDispatcher.locale;
 
