@@ -21,6 +21,7 @@
   "themes": "Selección de temas",
   "language": "Selección de idioma",
   "selectLanguage": "Selecciona tu idioma preferido",
+  "currentLanguage": "Idioma currente",
   "themeSelection": "Selecciona un tema",
   "addContact": "Añadir contacto",
   "workInProgress": "En desarrollo: Funcionalidad en progreso"

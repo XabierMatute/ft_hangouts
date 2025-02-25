@@ -66,6 +66,9 @@ class AppLocalizationsEu extends AppLocalizations {
   String get selectLanguage => 'Hautatu zure hizkuntza preferitua';
 
   @override
+  String get currentLanguage => 'Current language';
+
+  @override
   String get themeSelection => 'Gai bat aukeratu';
 
   @override
@@ -73,4 +76,25 @@ class AppLocalizationsEu extends AppLocalizations {
 
   @override
   String get workInProgress => 'Garapen fasean: Ezaugarri hau lantzen ari da';
+
+  @override
+  String get confirmExit => 'Are you sure you want to exit?';
+
+  @override
+  String get exit => 'Exit';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get delete => 'Delete';
+
+  @override
+  String get edit => 'Edit';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get unsavedChanges => 'You have unsaved changes. Do you want to save them?';
 }

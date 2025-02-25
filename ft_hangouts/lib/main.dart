@@ -4,6 +4,9 @@ import 'widget/menu_widget.dart';  // Asegúrate de que la ruta sea correcta
 
 import 'package:ft_hangouts/l10n/app_localizations.dart';
 
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -14,14 +17,25 @@ class MyApp extends StatefulWidget {
 
   // This widget is the root of your application.
 
+  static _MyAppState of(BuildContext context) =>
+      context.findAncestorStateOfType<_MyAppState>()!;
+
+
   @override
   State<MyApp> createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
   ThemeData _themeData = ThemeData(
-    colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
   );
+
+  Locale _locale = WidgetsBinding.instance.platformDispatcher.locale;
+
+  void changeLocale(Locale newLocale) {
+    setState(() {
+      _locale = newLocale;
+    });
+  }
 
   void changeTheme(ThemeData newTheme) {
     setState(() {
@@ -32,20 +46,23 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      locale: _locale,
+      localizationsDelegates: [
+        AppLocalizations.delegate, // Add this line
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: [
+        Locale('en'), // English
+        Locale('es'), // Spanish
+        Locale('eu'), // Euskera
+      ],
 
-    localizationsDelegates: [
-      AppLocalizations.delegate, // Add this line
-    ],
-    supportedLocales: [
-      Locale('en'), // English
-      Locale('es'), // Spanish
-      Locale('eu'), // Euskera
-    ],
-
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: _themeData,
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+        debugShowCheckedModeBanner: false,
+        title: 'ft_hangouts',
+        theme: _themeData,
+        home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -76,12 +93,10 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
         
-actions: [
-  const MenuWidget(),
-],
+      actions: [
+        const MenuWidget(),
+      ],
 
-
-        
       ),
       body: Center(
         child: Column(
@@ -100,32 +115,6 @@ actions: [
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
-  }
-}
-
-
-  void _navigateToChangeColor(BuildContext context) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => const ChangeColorPage()),
-    );
-  }
-
-
-class ChangeColorPage extends StatelessWidget {
-  const ChangeColorPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Change Colour'),
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-      ),
-      body: const Center(
-        child: Text('Aquí iría un menú'),
-      ),
     );
   }
 }

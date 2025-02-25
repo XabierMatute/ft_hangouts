@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get helloWorld => 'Helloooooooooooo World!';
+  String get helloWorld => 'Jokin World!';
 
   @override
   String get appTitle => 'ft_hangouts';
@@ -66,6 +66,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectLanguage => 'Select your preferred language';
 
   @override
+  String get currentLanguage => 'Current language';
+
+  @override
   String get themeSelection => 'Select a theme';
 
   @override
@@ -73,4 +76,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get workInProgress => 'WIP: Feature under development';
+
+  @override
+  String get confirmExit => 'Are you sure you want to exit?';
+
+  @override
+  String get exit => 'Exit';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get delete => 'Delete';
+
+  @override
+  String get edit => 'Edit';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get unsavedChanges => 'You have unsaved changes. Do you want to save them?';
 }

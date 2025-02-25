@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "helloWorld": "Helloooooooooooo World!",
+  "helloWorld": "Jokin World!",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   },
@@ -22,7 +22,15 @@
   "themes": "Themes Selection",
   "language": "Language Selection",
   "selectLanguage": "Select your preferred language",
+  "currentLanguage": "Current language",
   "themeSelection": "Select a theme",
   "addContact": "Add Contact",
-  "workInProgress": "WIP: Feature under development"
+  "workInProgress": "WIP: Feature under development",
+  "confirmExit": "Are you sure you want to exit?",
+  "exit": "Exit",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "save": "Save",
+  "unsavedChanges": "You have unsaved changes. Do you want to save them?"
 }

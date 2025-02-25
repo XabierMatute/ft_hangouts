@@ -66,6 +66,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get selectLanguage => 'Selecciona tu idioma preferido';
 
   @override
+  String get currentLanguage => 'Idioma currente';
+
+  @override
   String get themeSelection => 'Selecciona un tema';
 
   @override
@@ -73,4 +76,25 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get workInProgress => 'En desarrollo: Funcionalidad en progreso';
+
+  @override
+  String get confirmExit => 'Are you sure you want to exit?';
+
+  @override
+  String get exit => 'Exit';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get delete => 'Delete';
+
+  @override
+  String get edit => 'Edit';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get unsavedChanges => 'You have unsaved changes. Do you want to save them?';
 }

@@ -100,7 +100,7 @@ abstract class AppLocalizations {
   /// The conventional newborn programmer greeting
   ///
   /// In en, this message translates to:
-  /// **'Helloooooooooooo World!'**
+  /// **'Jokin World!'**
   String get helloWorld;
 
   /// No description provided for @appTitle.
@@ -211,6 +211,12 @@ abstract class AppLocalizations {
   /// **'Select your preferred language'**
   String get selectLanguage;
 
+  /// No description provided for @currentLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Current language'**
+  String get currentLanguage;
+
   /// No description provided for @themeSelection.
   ///
   /// In en, this message translates to:
@@ -228,6 +234,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'WIP: Feature under development'**
   String get workInProgress;
+
+  /// No description provided for @confirmExit.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to exit?'**
+  String get confirmExit;
+
+  /// No description provided for @exit.
+  ///
+  /// In en, this message translates to:
+  /// **'Exit'**
+  String get exit;
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// No description provided for @delete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get delete;
+
+  /// No description provided for @edit.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit'**
+  String get edit;
+
+  /// No description provided for @save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get save;
+
+  /// No description provided for @unsavedChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'You have unsaved changes. Do you want to save them?'**
+  String get unsavedChanges;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

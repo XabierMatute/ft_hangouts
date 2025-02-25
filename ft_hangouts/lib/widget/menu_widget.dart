@@ -28,7 +28,7 @@ class MenuWidget extends StatelessWidget {
             goTo(context, const ThemesScreen());
             break;
           case 'Language':
-            goTo(context, const LanguageScreen());
+            goTo(context, LanguageScreen());
             break;
           case 'About':
             goTo(context, const AboutScreen());
